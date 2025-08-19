@@ -6,7 +6,7 @@ and the corresponding realtime filter (based on Bayesian optimization) for the p
 The strong point of this learning scheme is that only the most recent 1,000 hours of data are used to predict the wind speed.  
 With this limited training data, online learning can be performed to predict three hours ahead in the Tokyo region. Compared to long-term learning models, its strength lies in its ability to flexibly adapt to sudden pattern changes.
 
-Online learning + recent 1,000 hours of data, the MAE of 2 m/s for predictions using filtered data, along with a correlation of 0.83 between the filtered data and original data, is considered a fairly robust result.
+Online learning + recent 1,000 hours of data, the MAE of 2 m/s for prediction using the filtered data, along with a correlation of 0.83 between the filtered data and original data, is considered a fairly robust result. On the other hand, the MAE of 4.05 m/s for the prediction without any use of filter, is poor accuracy.
 
 With long-term learning models, even with a large amount of data, the speed at which they can adapt to the latest patterns may be slower. Considering that the current model can quickly respond to sudden local winds and recent weather patterns compared to long-term learning models, the current accuracy is quite promising.
 
