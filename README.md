@@ -1,7 +1,6 @@
 Please acknowledge the use of these scripts in any publications which make use of them.
 
-I constructed non-incremental online learning of parallelizable Reservoir (simple turbulence model)
-and the corresponding realtime filter (based on Bayesian optimization) for the parallel data.
+Inspired by Google's science team's 2023 announcement of a machine learning model for weather forecasting that “exceeds conventional physical models,” I built a simple machine learning model of my own. More precisely, I constructed non-incremental online learning of parallelizable Reservoir (simple turbulence model) and the corresponding realtime filter (based on Bayesian optimization) for the parallel data.
 
 The strong point of this learning scheme is that only the most recent 1,000 hours of data are used to predict the wind speed.  
 With this limited training data, online learning can be performed to predict three hours ahead in the Tokyo region. Compared to long-term learning models, its strength lies in its ability to flexibly adapt to sudden pattern changes.
