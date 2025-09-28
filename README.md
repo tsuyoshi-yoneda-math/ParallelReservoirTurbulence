@@ -11,6 +11,8 @@ The following is a comparable result from our study:
 
 William Y.Y. Cheng and W. James Steenburgh, Evaluation of Surface Sensible Weather Forecasts by the WRF and the ETA Models over the Western United States, WRF/MM5 Users' Workshop - June 2005.
 
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www2.mmm.ucar.edu/wrf/users/workshops/WS2005/abstracts/Session4/4-Cheng.pdf&ved=2ahUKEwjl_v3xq_qPAxWIr1YBHR9JLEsQFnoECBYQAQ&usg=AOvVaw1NB6Bv5VFOk7oVVpT3cp0j
+
 Although the data are not from the same location or period, the MAE for the 3-hour-ahead wind speed prediction is still comparable. Our conclusion is that our model can quickly respond to sudden local winds and recent weather patterns compared to long-term learning models, the current accuracy is quite promising.
 
 We employ the excellent Ohkubo-Inubushi method (for the Ridge regression) in the latest version. 
