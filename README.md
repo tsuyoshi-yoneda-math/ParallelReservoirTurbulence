@@ -13,7 +13,10 @@ William Y.Y. Cheng and W. James Steenburgh, Evaluation of Surface Sensible Weath
 
 Although the data are not from the same location or period, the MAE for the 3-hour-ahead wind speed prediction is still comparable. Our conclusion is that our model can quickly respond to sudden local winds and recent weather patterns compared to long-term learning models, the current accuracy is quite promising.
 
+We employ the excellent Ohkubo-Inubushi method (for the Ridge regression) in the latest version. 
+For the detail, see Scientific Reports volume 14, Article number: 30918 (2024).
 
+https://www.nature.com/articles/s41598-024-81880-3.pdf&ved=2ahUKEwjN7738qvqPAxW6qFYBHe5hJB0QFnoECBYQAQ&usg=AOvVaw2imVztYVPlD_xuZTJibtUG
 
 If you want to know the mathematical structure of the realtime filter, see the following paper:
 
@@ -98,4 +101,4 @@ test_num:    Number of times for one test (to get one autocorrelation)
 discard_len: Number of steps not learned at the beginning (not important).
 MAX_TRIALS : Repeat the same thing while shifting each one step to produce robust result.
 
-The history of bayesian optimization, "reservoir_trials.csv" is generated.
+The history of bayesian optimization is generated if you choose ``study_with_save".
