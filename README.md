@@ -16,7 +16,7 @@ Although the data are not from the same location or period, the MAE for the 3-ho
 We employ the excellent Ohkubo-Inubushi method (for the Ridge regression) in the latest version. 
 For the detail, see Scientific Reports volume 14, Article number: 30918 (2024).
 
-https://www.nature.com/articles/s41598-024-81880-3.pdf&ved=2ahUKEwjN7738qvqPAxW6qFYBHe5hJB0QFnoECBYQAQ&usg=AOvVaw2imVztYVPlD_xuZTJibtUG
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.nature.com/articles/s41598-024-81880-3.pdf&ved=2ahUKEwjN7738qvqPAxW6qFYBHe5hJB0QFnoECBYQAQ&usg=AOvVaw2imVztYVPlD_xuZTJibtUG
 
 If you want to know the mathematical structure of the realtime filter, see the following paper:
 
