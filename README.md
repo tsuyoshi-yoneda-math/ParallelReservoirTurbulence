@@ -6,7 +6,7 @@ For the summary of parallelized reservoir, see
 
 https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/parallelized-reservoir.pdf
 
-We applied this method to predict wind speed three hours ahead in the Tokyo region. Using online learning with the most recent 1,000 hours of data, the MAE of 2 m/s for predictions based on the filtered data—together with a correlation of 0.83 between the filtered and original data—can be regarded as a fairly robust result.
+We applied this method to predict wind speed three hours ahead in the Tokyo region. Using online learning with the most recent 1,000 hours of data, the <b>MAE of 2 m/s for predictions based on the filtered data—together with a correlation of 0.83 between the filtered and original data—can be regarded as a fairly robust result.</b>
 
 The following is a comparable result from our study:
 
