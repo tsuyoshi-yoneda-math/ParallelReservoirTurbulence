@@ -1,6 +1,6 @@
 Please acknowledge the use of these scripts in any publications which make use of them.
 
-I constructed non-incremental online learning of parallelized Reservoir and the corresponding data-driven filter. The strong point of this learning scheme is that only the most recent 1,000 hours of data are used to train the wind speed model. Compared to long-term learning models, its strength lies in its ability to flexibly adapt to sudden pattern changes.
+I constructed non-incremental online learning of parallelized Reservoir and the corresponding data-driven filter. Compared to long-term learning models, its strength lies in its ability to flexibly adapt to sudden pattern changes.
 
 We predicted wind speed for three hours ahead in the Tokyo region. Online learning + recent 1,000 hours of data, the MAE of 2 m/s for prediction using the filtered data, along with a correlation of 0.83 between the filtered data and original data, is considered a fairly robust result. 
 
