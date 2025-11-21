@@ -7,7 +7,7 @@ We predicted <b>wind speed three hours ahead in the Tokyo region. Using online l
 
 For the summary of the online learning (parallelized reservoir), see
 
-https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/parallelized-reservoir.pdf
+https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/summary_of_parallelized_reservoir_framework.pdf
 
 The following is a comparable result from our study:
 
