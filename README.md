@@ -1,12 +1,13 @@
 Please acknowledge the use of these scripts in any publications that make use of them.
 
-I developed a non-incremental online learning system using a parallelized reservoir and the corresponding data-driven filter. Unlike long-term learning models, its strength lies in its ability to adapt flexibly to sudden changes in patterns.
 
-For the summary of parallelized reservoir, see
+
+
+We predicted <b>wind speed three hours ahead in the Tokyo region. Using online learning with the most recent 1,000 hours of data, the MAE of 2 m/s for predictions based on the filtered data—together with a correlation of 0.83 between the filtered and original data—can be regarded as a fairly robust result.</b>
+
+For the summary of online learning (parallelized reservoir), see
 
 https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/parallelized-reservoir.pdf
-
-We applied this method to predict wind speed three hours ahead in the Tokyo region. Using online learning with the most recent 1,000 hours of data, the <b>MAE of 2 m/s for predictions based on the filtered data—together with a correlation of 0.83 between the filtered and original data—can be regarded as a fairly robust result.</b>
 
 The following is a comparable result from our study:
 
@@ -15,6 +16,8 @@ William Y.Y. Cheng and W. James Steenburgh, Evaluation of Surface Sensible Weath
 https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www2.mmm.ucar.edu/wrf/users/workshops/WS2005/abstracts/Session4/4-Cheng.pdf&ved=2ahUKEwjl_v3xq_qPAxWIr1YBHR9JLEsQFnoECBYQAQ&usg=AOvVaw1NB6Bv5VFOk7oVVpT3cp0j
 
 Although the data are not from the same location or period, the MAE for the 3-hour-ahead wind speed prediction is still comparable. Our conclusion is that our model can quickly respond to sudden local winds and recent weather patterns compared to long-term learning models, the current accuracy is quite promising.
+
+---
 
 We employ the excellent Ohkubo-Inubushi method (for the Ridge regression) in the latest version. 
 For the detail, see Scientific Reports volume 14, Article number: 30918 (2024).
