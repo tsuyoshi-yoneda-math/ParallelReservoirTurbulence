@@ -24,10 +24,10 @@ For the detail, see Scientific Reports volume 14, Article number: 30918 (2024).
 
 https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.nature.com/articles/s41598-024-81880-3.pdf&ved=2ahUKEwjN7738qvqPAxW6qFYBHe5hJB0QFnoECBYQAQ&usg=AOvVaw2imVztYVPlD_xuZTJibtUG
 
-If you want to know the mathematical structure of the realtime filter, see the following paper:
+---
 
-``Long-term prediction of El Niño-Southern Oscillation using reservoir computing with data-driven realtime filter"
+If you want to know the mathematical structure of the data-driven filter, please go to
 
-https://pubs.aip.org/aip/cha/article-abstract/35/5/053149/3347294/Long-term-prediction-of-El-Nino-Southern?redirectedFrom=fulltext
+https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/summary_ML_impl_driven_math.pdf
 
 
